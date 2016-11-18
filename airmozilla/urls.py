@@ -20,7 +20,6 @@ urlpatterns = patterns(
     (r'^authentication/', include('airmozilla.authentication.urls', namespace='authentication')),  # NOQA
     (r'^manage/', include('airmozilla.manage.urls', namespace='manage')),
     (r'^requests/', include('airmozilla.suggest.urls', namespace='suggest')),
-    (r'^search/', include('airmozilla.search.urls', namespace='search')),
     (r'^comments/', include('airmozilla.comments.urls', namespace='comments')),
     (r'^starred/', include('airmozilla.starred.urls', namespace='starred')),
     (r'^surveys/', include('airmozilla.surveys.urls', namespace='surveys')),
